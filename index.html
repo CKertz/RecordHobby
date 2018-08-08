@@ -9,24 +9,30 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="">Register</a></li>
+            <li><a href="">Log in</a></li>
+        </ul>
+    </nav>
     <section class="crud">
-        <button>Add Session</button>
-        <button>Edit Session</button>
-        <button>Delete Session</button>
+        <ul>
+            <li><a href="">Add Session</a></li>
+            <li><a href="">Edit Existing</a></li>
+            <li><a href="">Delete Session</a></li>
+        </ul>
     </section>
-    <section class="templates">
-        <button>Use Existing Template</button>        
-        <button>Create Template</button>
-        <button>Delete Template</button>
+    <section class="templateSelection">
+        <h1>Choose a template to fill out your session</h1>
+        <ul class="savedTemplates">
+            <li>
+                <a href="">Standard 1 Hour Practice</a>
+            </li>
+            <li>
+                <a href="">Extended 2 Hour Practice</a>
+            </li>
+        </ul>
     </section>
-    <form>
-        Activity Name:<br>
-        <input type="text" name="activityName"><br>
-        Duration:<br>
-        <input type="text" name="activityDuration"><br>
-        Breakdown:<br>
-        <input type="text" name="activityBreakdown"><br>
 
-    </form>
 </body>
 </html>
